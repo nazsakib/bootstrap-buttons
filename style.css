@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+    padding: 275px;
+    margin: auto;
+}
+.bg-button {
+    padding: 50px;
+}
+a:not(.link) {
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* background color button */
+
+.warning {
+    color: rgb(0, 0, 0);
+    background-color:#E0A800; 
+}
+.warning:hover {
+    background-color: #b28602;
+}
+
+.secondary {
+    color: white;
+    background-color: #5A6268;
+}
+.secondary:hover {
+    background-color: #4c545a;
+}
+
+.success {
+    color: white;
+    background-color: #218838;
+}
+.success:hover {
+    background-color: #156727;
+}
+
+.danger {
+    color: white;
+    background-color: #C82333;
+}
+.danger:hover {
+    background-color: #a51a28;
+}
+
+.info {
+    color: white;
+    background-color: #138496;
+}
+.info:hover {
+    background-color: #0d6674;
+}
+
+.primary {
+    background-color: #0069D9;
+    color: white;
+}
+.primary:hover {
+    background-color: #0053ab;
+}
+ 
+.light {
+    color: black;
+}
+.light:hover {
+    background-color: #dbdbdb;
+}
+
+.dark {
+    background-color: #2A272B;
+    color: white;
+}
+.dark:hover {
+    background-color: #3b373c;
+}
+
+.link {
+    padding: 8px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: blue;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+/* outline button */
+
+.outline-button {
+    padding: 50px;
+}
+.outline-primary {
+    border: 1px solid #0053AB;
+    color: #0053AB;
+}
+.outline-primary:hover {
+    background-color: #0772e3;
+    color: white;
+}
+
+.outline-secondary {
+    border: 1px solid #4C545A;
+    color: #4C545A;
+}
+.outline-secondary:hover {
+    background-color: #75828c;
+    color: #ffffff;
+}
+
+.outline-success {
+    border: 1px solid #156727;
+    color: #156727;
+}
+.outline-success:hover {
+    background-color: #20973a;
+    color: white;
+}
+
+.outline-danger {
+    border: 1px solid #C82333;
+    color: #C82333;
+}
+.outline-danger:hover {
+    background-color: #f53044;
+    color: white;
+}
+
+.outline-warning {
+    border: 1px solid #B28602;
+    color: #B28602;
+}
+.outline-warning:hover {
+    background-color: #daa507;
+    color: #000000;
+}
+
+.outline-info {
+    border: 1px solid #0D6674;
+    color: #0D6674;
+}
+.outline-info:hover {
+    background-color: #179eb3;
+    color: white;
+}
+
+.outline-light {
+    color: white;
+}
+.outline-light:hover {
+    color: #000000;
+}
+
+.outline-dark {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.outline-dark:hover {
+    color: white;
+    background-color: #272626;
+}
