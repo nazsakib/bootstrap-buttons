@@ -170,3 +170,18 @@ a:not(.link) {
     color: white;
     background-color: #272626;
 }
+
+
+.gradient {
+    border: none;
+    padding: 30px 160px;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(to right, #C02425, #F0CB35);
+    cursor: pointer;
+    border-radius: 4px;
+}
+.gradient:hover {
+    background-image: linear-gradient(to left, #C02425, #F0CB35);
+    transition: 0.3s;
+}
